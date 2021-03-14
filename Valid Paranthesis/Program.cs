@@ -16,6 +16,7 @@ namespace Valid_Paranthesis
 
         public static bool ValidParenthesis(string s)
         {
+
             Stack<char> stack = new Stack<char>();
             foreach(char c in s)
             {
